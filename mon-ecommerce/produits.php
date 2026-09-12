@@ -28,7 +28,7 @@
 <?php
 require "config/database.php";
 
-$sql = "SELECT * FROM produits1";
+$sql = "SELECT * FROM produits1 LIMIT 6";
 $resultat = $conn->query($sql);
 ?>
 
